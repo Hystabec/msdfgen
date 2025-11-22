@@ -14,25 +14,12 @@ project "msdfgen"
 		"core/**.cpp",
 		"ext/**.h",
 		"ext/**.hpp",
-		"ext/**.cpp",
-		"lib/**.cpp",
-		"include/**.h"
-	}
-
-	includedirs
-	{
-		"include",
-		"freetype/include"
+		"ext/**.cpp"
 	}
 
 	defines
 	{
 		"MSDFGEN_USE_CPP11"
-	}
-
-	links
-	{
-		"freetype"
 	}
 
 	filter "system:windows"
