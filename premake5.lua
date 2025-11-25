@@ -101,11 +101,14 @@ project "msdfgen"
 		"core/**.cpp",
 		"ext/**.h",
 		"ext/**.hpp",
-		"ext/**.cpp"
+		"ext/**.cpp",
+		"lib/**.cpp",
+		"include/**.h"
 	}
 
 	includedirs
 	{
+		"include",
 		"freetype/include"
 	}
 
