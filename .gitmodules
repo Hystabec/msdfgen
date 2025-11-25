@@ -1,0 +1,3 @@
+[submodule "freetype"]
+	path = freetype
+	url = https://github.com/freetype/freetype/tree/2d57b0592805c76d676b51fbf9553de71c5a5c78
